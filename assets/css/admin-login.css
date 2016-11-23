@@ -1,0 +1,58 @@
+body {
+	background-color: #215A8B !important;
+}
+h1, #loginbox {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	margin-top: 100px;
+	text-align: center;
+}
+#loginbox {
+	margin-top: 10px;
+	border: 6px solid rgba(255, 255, 255, .43);
+	-moz-border-radius: 11px / 10px;
+	-webkit-border-radius: 11px / 10px;
+	border-radius: 11px / 10px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #F8F8F8;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4), inset 0 0 21px #d9d9d9;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4), inset 0 0 21px #D9D9D9;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4), inset 0 0 21px #D9D9D9;
+	overflow: hidden !important;
+	text-align: center;
+	position: relative;
+
+}
+#loginbox p {
+	margin-top: 20px;
+	padding: 0 20px;
+}
+#loginbox form {
+	margin-bottom: -25px;
+}
+#loginbox .form-actions {
+	padding-top: 14px;
+	-webkit-border-bottom-right-radius: 13px;
+	-webkit-border-bottom-left-radius: 13px;
+	-moz-border-radius-bottomright: 13px;
+	-moz-border-radius-bottomleft: 13px;
+	border-bottom-right-radius: 13px;
+	border-bottom-left-radius: 13px;
+}
+.alert {
+	width: 245px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0;
+}
+.form-actions .pull-left {
+	padding-top: 5px;
+}
+.hidden {
+    visibility: visible;
+}
